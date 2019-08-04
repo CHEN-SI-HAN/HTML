@@ -1,0 +1,84 @@
+﻿.canvasjs-chart-credit{
+    display:none;
+}
+.app .input-group .form-control.input-group-center {
+    border-radius: 0.01px;
+}
+
+.app {
+    font-family: '微軟正黑體';
+    height: 100vh;
+    background-image: url(/Content/img/00_home-22.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+    .app nav.sidebar {
+        position:fixed;
+        left:0;
+        top:0;
+        height: calc(100vh - 2rem - 24px);
+        width: 280px;
+        background-color: rgba(255,255,255,0.3);
+        padding-left: unset;
+        padding-right: unset;
+        z-index:1;
+    }
+    .app main {
+        height: calc(100vh - 2rem - 24px);
+        width: calc( 100% - 275px );
+        margin-left:275px;
+        overflow:auto;
+    }
+    .app footer {
+        background-color: white;
+    }
+
+    .app .logo {
+        width: 100%;
+        padding-left: unset;
+        padding-right: unset;
+        background-color: white;
+    }
+
+    .app .nav-item.nav-logo {
+        background-color: white;
+    }
+
+    .app .nav-item {
+        background-color: rgba(255,255,255,0.6);
+    }
+
+        .app .nav-item:hover {
+            background-color: white;
+        }
+
+        .app .nav-item.active {
+            background-color: white;
+        }
+
+    .app .menu-icon {
+        width: 36px;
+    }
+
+    .app footer {
+        background-image: url(/Content/img/footer-02.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .app .bb-dashed {
+        border-bottom: 2px dashed white;
+    }
+    .app .card {
+        background-color: rgba(255,255,255,0.7);
+    }
+
+    .app .card .card-header {
+        background-color: rgba(255,255,255,1);
+    }
+@media screen and (max-width:768px) {
+    .app main {
+        width: 100%;
+        margin-left: 0px;
+    }
+}
